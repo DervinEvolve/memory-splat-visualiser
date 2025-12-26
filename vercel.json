@@ -1,0 +1,19 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/sharp/submit.js": {
+      "maxDuration": 300
+    },
+    "api/sharp/submit-file.js": {
+      "maxDuration": 300
+    },
+    "api/sharp/status.js": {
+      "maxDuration": 30
+    },
+    "api/sharp/result.js": {
+      "maxDuration": 60
+    }
+  }
+}
